@@ -42,7 +42,7 @@ namespace WishList.Controllers
                 }
                 return View(model);
             }
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index","Home");
         }
     }
 }
