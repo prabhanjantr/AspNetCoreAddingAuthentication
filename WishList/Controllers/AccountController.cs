@@ -51,6 +51,7 @@ namespace WishList.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public IActionResult Login()
         {
             return View();
